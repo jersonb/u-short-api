@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: u-short-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: u-short
+      POSTGRES_PASSWORD: U-Short1
+      POSTGRES_DB: ushort
+    ports:
+      - 5432:5432
+
+
