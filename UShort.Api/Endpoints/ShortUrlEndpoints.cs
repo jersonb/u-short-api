@@ -34,7 +34,7 @@ public static class ShortUrlEndpoints
                         Description = request.Description,
                         Url = request.Url,
                         UshortUserId = userId,
-                        CreatedtAt = DateTimeOffset.UtcNow
+                        CreatedtAt = DateTimeOffset.UtcNow,
                     };
 
                     context.ShortUrls.Add(shortUrl);
